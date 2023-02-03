@@ -11,13 +11,12 @@ def func():
 
 
 root = Tk()
-root.geometry("600x600")
+root.geometry("400x400")
 root.title('Translator')
-root['bg'] = 'black'
 
 translator = Translator()
 
-label = Label(root, fg='white', bg="black", text='Enter your word')
+label = Label(root, fg='Black', text='Enter your word')
 label.place(relx=0.5, y=30, anchor=CENTER)
 
 text_1 = Text(root, width=35, height=5)
